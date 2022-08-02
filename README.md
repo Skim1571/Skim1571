@@ -1,4 +1,7 @@
-### Hi there 👋
+### Welcome to my Git!
+#### My name is Steve Kim and I am a software engineer specializing in the MERN Stack.
+
+
 
 <!--
 **Skim1571/Skim1571** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
