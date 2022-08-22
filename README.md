@@ -1,5 +1,5 @@
 ### Welcome to my Git!
-#### My name is Steve Kim and I am a software engineer specializing in the MERN Stack.
+#### My name is Steve Kim and I am a full stack software engineer.
 
 
 
