@@ -1,8 +1,12 @@
 <template>
-  <div class="splashscreen">
+  <div class="splashscreen" id="home">
+    <div>
+      <img id="logo" alt="SteveKim logo" src="../assets/steve.jpg" @mouseover="hover=true" @mouseleave="hover=false"
+        :class="{active: hover}" />
+    </div>
     <div class="splash">
-      <h1>Hello, I'm <span class="highlightedRed"> Steve </span> J Kim</h1>
-      <h1>Welcome to my portfolio</h1>
+      <h1>Hello, I'm <span class="highlightedRed"> Steve </span> J Kim.</h1>
+      <h1>I am a Full-Stack Developer.</h1>
       <button class="generalButton">
         <a href="https://docs.google.com/document/d/1nSnICbjNWaXKM8X7TCbTT74YCHjQDtksZwv03iDKOY4/export?format=pdf"
           target="_blank"><span class="material-icons md-48">
@@ -15,19 +19,53 @@
 </template>
 
 <script>
+export default {
+  data() {
+    return {
+      hover: false,
+    }
+  }
+}
 
 </script>
 
 <style>
 .splashscreen {
   display: flex;
-  background-color: aquamarine;
   width: 100%;
   height: 100vh;
   text-align: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  color: white;
+}
+
+.active {
+  animation: beat 1s;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(0.8);
+  }
+
+  50% {
+    transform: scale(0.9);
+  }
+
+  75% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
 }
 
 .splash {
@@ -56,7 +94,7 @@
   border: 2px solid black;
   border-radius: 10%;
   flex-direction: column;
-  background-color: rgb(81, 206, 206, .4);
+  background-color: rgba(138, 130, 119, 0.4);
   width: 10rem;
   padding: 1rem;
   margin-top: 5rem;

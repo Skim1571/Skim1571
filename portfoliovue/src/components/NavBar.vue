@@ -3,17 +3,22 @@
     <aside id="mySidenav" class="sidenav">
       <ul>
         <li className="active-top">
-          <a href="/" class="site-title" className="active"><span class="material-icons md-48">
+          <a @click="scroll('home')" class="site-title" className="active"><span class="material-icons md-48">
               home
             </span></a>
         </li>
         <li className="active">
-          <a href="/about"><span class="material-icons md-48">
+          <a @click="scroll('about')"><span class="material-icons md-48">
+              portrait
+            </span></a>
+        </li>
+        <li className="active">
+          <a @click="scroll('projects')"><span class="material-icons md-48">
               portrait
             </span></a>
         </li>
         <li className="active-bottom">
-          <a href="/projects"><span class="material-icons md-48">
+          <a @click="scroll('contact')"><span class="material-icons md-48">
               engineering
             </span></a>
         </li>
@@ -23,7 +28,18 @@
 </template>
 
 <script>
-
+export default {
+  name: 'navBar',
+  data: () => ({
+    buttonText: <span class="material-icons md-48">portrait</span>
+  }),
+  methods: {
+    scroll(toSection) {
+      const element = document.getElementById(toSection);
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+}
 </script>
 
 <style>
@@ -41,7 +57,7 @@
   top: 100px;
   padding: 10px;
   border-radius: 3rem;
-  animation: animatetop 1s;
+  animation: animatetop 3s;
 }
 
 @keyframes animatetop {
