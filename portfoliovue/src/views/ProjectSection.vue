@@ -48,10 +48,9 @@ export default {
 
 <style>
 .projects {
-  height: 100vh;
+  height: 200vh;
   color: white;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
