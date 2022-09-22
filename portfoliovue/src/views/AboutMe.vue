@@ -63,7 +63,7 @@ export default {
 
 <style>
 .about {
-  height: 120vh;
+  height: 100vh;
   color: white;
 }
 
@@ -79,7 +79,7 @@ export default {
   animation: rotations 30s linear infinite;
   border-radius: 50%;
   margin: 0 auto;
-  margin-top: 20rem;
+  margin-top: 30rem;
 }
 
 #frontend,

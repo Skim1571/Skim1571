@@ -48,7 +48,7 @@ export default {
 
 <style>
 .projects {
-  height: 200vh;
+  height: 100vh;
   color: white;
   display: flex;
   align-items: center;
