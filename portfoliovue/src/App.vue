@@ -49,10 +49,9 @@ body {
   /* animation: animateBg 10s linear infinite; */
   /* background-image: linear-gradient(45deg, #42eca6, #64b3d9, #208ea2, #498ada, #5b73df, #897ed3, #5b73df, #498ada, #208ea2, #64b3d9, #42eca6); */
   background-image: url('https://wallpapertag.com/wallpaper/full/e/a/e/118475-neutral-background-1920x1080-samsung.jpg');
-  height: auto;
-  width: 100%;
+  background-size: cover;
   background-attachment: fixed;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 /* @keyframes animateBg {
