@@ -12,13 +12,8 @@
               portrait
             </span></a>
         </li>
-        <li className="active">
-          <a @click="scroll('projects')"><span class="material-icons md-48">
-              portrait
-            </span></a>
-        </li>
         <li className="active-bottom">
-          <a @click="scroll('contact')"><span class="material-icons md-48">
+          <a @click="scroll('projects')"><span class="material-icons md-48">
               engineering
             </span></a>
         </li>
