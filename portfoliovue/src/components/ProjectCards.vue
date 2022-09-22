@@ -57,8 +57,4 @@ export default {
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
 }
-
-.projectCard .info-wrapper {
-  padding: 1em;
-}
 </style>
