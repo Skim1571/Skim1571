@@ -51,7 +51,7 @@ body {
 .app {
   /* animation: animateBg 10s linear infinite; */
   /* background-image: linear-gradient(45deg, #42eca6, #64b3d9, #208ea2, #498ada, #5b73df, #897ed3, #5b73df, #498ada, #208ea2, #64b3d9, #42eca6); */
-  background-image: url('https://wallpapercave.com/wp/wp4959196.jpg');
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0761%2F8649%2Ffiles%2FHexagon_Wood_Nut_1.jpg%3F6559309705414561036&f=1&nofb=1');
   background-size: cover;
   min-height: max-content;
   background-position: center;

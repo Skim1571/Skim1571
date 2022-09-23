@@ -94,7 +94,8 @@ export default {
   border: 2px solid black;
   border-radius: 10%;
   flex-direction: column;
-  background-color: rgba(138, 130, 119, 0.4);
+  background-image: url('https://i.pinimg.com/originals/bd/38/24/bd3824d20a91a706157d9f667c8f9337.jpg');
+  background-size: 150%;
   width: 10rem;
   padding: 1rem;
   margin-top: 5rem;
