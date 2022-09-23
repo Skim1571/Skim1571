@@ -38,8 +38,6 @@ export default {
   color: black;
   opacity: .8;
   margin: 4rem;
-  grid-column: 1/3;
-  grid-row: 1/3;
 }
 
 .projectCard:hover {

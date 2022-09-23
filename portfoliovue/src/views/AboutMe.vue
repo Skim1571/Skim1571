@@ -79,7 +79,7 @@ export default {
   animation: rotations 30s linear infinite;
   border-radius: 50%;
   margin: 0 auto;
-  margin-top: 30rem;
+  margin-top: 20rem;
 }
 
 #frontend,
@@ -90,12 +90,11 @@ export default {
 }
 
 #frontend {
-  /* background-color: rgb(80, 139, 212); */
   background-image: url('https://i.pinimg.com/originals/bd/38/24/bd3824d20a91a706157d9f667c8f9337.jpg');
   background-size: 150%;
   background-repeat: no-repeat;
   border: 5px solid black;
-  width: 18rem;
+  width: 40%;
   height: auto;
   color: white;
   border-radius: 3rem;
@@ -133,7 +132,7 @@ export default {
   border-radius: 3rem;
   bottom: -.25rem;
   right: -.25rem;
-  width: 18rem;
+  width: 40%;
   height: auto;
   color: white;
 }

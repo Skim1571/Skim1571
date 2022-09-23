@@ -4,6 +4,7 @@
     <SplashScreen />
     <AboutMe />
     <ProjectSection />
+    <ContactMe />
   </div>
 
 </template>
@@ -13,6 +14,7 @@ import NavBar from './components/NavBar.vue'
 import SplashScreen from './views/SplashScreen.vue'
 import AboutMe from './views/AboutMe.vue'
 import ProjectSection from './views/ProjectSection.vue'
+import ContactMe from './views/ContactMe.vue'
 
 export default {
   name: 'App',
@@ -20,7 +22,8 @@ export default {
     NavBar,
     SplashScreen,
     AboutMe,
-    ProjectSection
+    ProjectSection,
+    ContactMe
   }
 }
 </script>
@@ -48,8 +51,10 @@ body {
 .app {
   /* animation: animateBg 10s linear infinite; */
   /* background-image: linear-gradient(45deg, #42eca6, #64b3d9, #208ea2, #498ada, #5b73df, #897ed3, #5b73df, #498ada, #208ea2, #64b3d9, #42eca6); */
-  background-image: url('https://wallpapertag.com/wallpaper/full/e/a/e/118475-neutral-background-1920x1080-samsung.jpg');
+  background-image: url('https://wallpapercave.com/wp/wp4959196.jpg');
   background-size: cover;
+  min-height: max-content;
+  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }

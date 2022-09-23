@@ -98,11 +98,21 @@ export default {
   width: 10rem;
   padding: 1rem;
   margin-top: 5rem;
+  align-self: center;
+  color: white;
+}
 
+.generalButton>a {
+  color: inherit;
 }
 
 .generalButton:hover {
-  background-color: rgb(81, 206, 206, .8);
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+.generalButton>a:hover {
+  color: black;
 }
 
 .material-icons.md-18 {
